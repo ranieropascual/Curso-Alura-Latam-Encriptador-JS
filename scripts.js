@@ -20,7 +20,7 @@ function desencriptar(){
     .replace(/imes/gi,"i") 
     .replace(/ai/gi,"a") 
     .replace(/ober/gi,"o") 
-    .replace(/ufat/gi,"u") ;
+    .replace(/ufat/gi,"u");
     document.getElementById("muneco").innerHTML = mensaje;
     console.log("mensaje")
 }
